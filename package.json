@@ -1,0 +1,33 @@
+{
+  "name": "api-node-es5",
+  "version": "1.0.0",
+  "description": "API in Nodejs using EcmaScript5",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint-config-airbnb": "^6.1.0",
+    "mocha": "^2.3.4",
+    "supertest": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "mocha --recursive",
+    "lint": "eslint lib/** test/**; exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedromotta/motta-api.git"
+  },
+  "author": "Pedro Motta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedromotta/motta-api/issues"
+  },
+  "homepage": "https://github.com/pedromotta/motta-api#readme"
+}
